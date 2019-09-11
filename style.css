@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+li a.navbar-overwrite {
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+li a.navbar-overwrite:hover {
+    text-decoration: underline;
+}
+
+#search-rounded {
+    border-radius: 1.5rem;
+}
+
+#search-rounded:hover {
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.16);
+}
+
+.search-icon {
+    padding: 1rem;
+    z-index: 2;
+    position: relative;
+    display: block;
+    text-align: center;
+    color: #4285f4;
+}
+
+form button.btn-overwrite {
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+
+form button.btn-overwrite:hover {
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.16);
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+
+#footer-overwrite {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #5f6368;
+}
